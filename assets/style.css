@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../assets/fonts/monstserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/monstserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'asteroneregular';
+    src: url('../assets/fonts/asterone/asterone-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/asterone/asterone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'asterone_outlineregular';
+    src: url('../assets/fonts/asteroneOutline/asteroneoutline-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/asteroneOutline/asteroneoutline-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100vh;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(29, 30, 38, 0.5), rgba(29, 30, 38, 0.5)), radial-gradient(101.82% 115.84% at 85.59% -38.35%, #3D71FF 13.11%, #1D1E26 100%);
+    color : white;
+}
+
+.container-title{
+    padding: 15% 0  0 7%;
+}
+
+h1 {
+    font-family: 'asteroneregular';
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 106px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'asterone_outlineregular';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h3 {
+    position: absolute;
+    text-align: right;
+    left: 55.9%;
+    right: 5.56%;
+    top: 76.95%;
+    bottom: 20.44%;
+    
+    font-family: 'asteroneregular';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.photo-jonathan{
+    position: absolute;
+    object-fit: cover;
+    width: 330px;
+    height: 330px;
+    border-radius:165px;
+    right: 20%;
+    top: 15%;
+}
+
+.logo{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.logo img {
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+}
+
+.container-img {
+    position: absolute;
+    width: 320px;
+    height: 100px;
+    bottom: 4%;
+    right: 5.56%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;    
+}
+.container-img img {
+    background-color:rgb(38, 51, 93) ;
+width: 80px;
+height: 80px;
+padding:10%
+}
+
